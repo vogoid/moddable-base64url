@@ -1,0 +1,9 @@
+{
+	"modules": {
+		"base64url": "./src/main",
+        "*": ["./src/encode", "./src/decode"]
+	},
+	"preload": [
+		"base64url"
+	]
+}
